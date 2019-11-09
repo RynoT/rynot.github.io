@@ -46,7 +46,13 @@
                 </a>    | Location: Dundee, UK
             </p>
             <p style="margin-left: 5%;">
-                © 2019 VANISHING POINT GAMES
+				&copy; 
+				<script> 
+					var initialYear = 2019;
+					var currentYear = new Date().getFullYear();
+					document.write(initialYear + (currentYear > initialYear ? ("-" + currentYear + ",") : ""));
+				</script>
+				VANISHING POINT GAMES
             </p>
         </div>
     </body>
