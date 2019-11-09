@@ -46,13 +46,11 @@
                 </a>    | Location: Dundee, UK
             </p>
             <p style="margin-left: 5%;">
-				&copy; 
-				<script> 
+				<script>
 					var initialYear = 2019;
 					var currentYear = new Date().getFullYear();
-					document.write(initialYear + (currentYear > initialYear ? ("-" + currentYear + ",") : ""));
+					document.write(`&copy; ${initialYear}` + (currentYear > initialYear ? (` - ${currentYear}, `) : " ") + "VANISHING POINT GAMES LTD");
 				</script>
-				VANISHING POINT GAMES
             </p>
         </div>
     </body>
